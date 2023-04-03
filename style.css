@@ -1,0 +1,597 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.top
+{
+    background-image: url(Images/Main\ backround\ ktm.jpeg);
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+} 
+
+
+.header
+{
+    display: flex;
+    width: 100%;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 25px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto Condensed;
+    font-size: 20px;
+
+}
+
+.header ul li{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.logo img{
+    
+    width: 126px;
+    height: 140px;
+    margin-left: 140px;
+    cursor: pointer;
+
+}
+
+.left{
+display: flex;
+margin-left: 400px;
+}
+.logo1 img{
+    margin-top: 60px;
+    width: 25px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+.middle-text{
+   
+    color: rgb(255, 255, 255);
+    margin-top: 268px;
+    margin-left: 647px;
+    font-family: Roboto Condensed;
+    letter-spacing: 3.5px;
+    font-size: 23px;
+}
+
+.name
+{
+    color: rgb(255, 255, 255);
+    margin-left: 476px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 14.5px;
+    font-size: 79px;
+}
+
+
+.book-now
+{
+    cursor: pointer;
+    height: 68px;
+    width: 180px;
+    margin-left: 738px;
+    margin-top: 10px;
+    color: aliceblue;
+    background-color: rgb(255, 77, 12);
+    font-family: 'Teko', sans-serif;
+    border: 1px orange;
+    font-size: 20px;
+    transition: 0.4s;
+
+
+}
+.book-now:hover
+{
+    background-color: transparent;
+    color:orangered;
+    border:1px solid orangered;
+}
+
+.text1
+
+{
+    color: black;
+    font-family: 'Teko', sans-serif;
+    font-size: 96px;
+    margin-left: 473px;
+    margin-top: 60px;
+    letter-spacing: 9px;
+}
+
+.text2{
+    color: rgb(255, 115, 0);
+    font-family: 'Teko', sans-serif;
+    font-size: 96px;
+    margin-left: 452px;
+    margin-top: -22px;
+    letter-spacing: 11px;
+}
+.configurator
+{
+    cursor: pointer;
+    height: 68px;
+    width: 175px;
+    margin-left: 580px;
+    margin-top: 10px;
+    color: rgb(10, 10, 10);
+    background-color: rgb(248, 245, 245);
+    font-family: 'Teko', sans-serif;
+    border: 1px 1px 1px 1px rgb(0, 0, 0);
+    font-size: 20px;
+    transition: .5s;
+}
+
+
+.configurator:hover{
+    background-color: black;
+    color: white;
+
+}
+.explore
+
+{
+    cursor: pointer;
+    height: 68px;
+    width: 250px;
+    margin-left: 138px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Teko', sans-serif;
+    border: 1px 1px 1px 1px rgb(0, 0, 0);
+    font-size: 20px;
+    transition: .5s;
+}
+.explore:hover
+{
+background-color: rgb(252, 251, 251);
+color: rgb(7, 7, 7);
+}
+.adv-image1 img{
+    margin-top: 80px;
+    width: 1550px;
+    margin-left:62px;
+    margin-bottom: -200px;
+}
+
+.part5
+{
+   
+display: flex;
+margin-top:80px;
+}
+
+.box5-1 img
+{
+    cursor: pointer;
+    width: 506px;
+    height: 381px;
+    margin-left: 53px;
+    margin-top: 190px;
+
+}
+
+.box5-2 img
+{
+    cursor: pointer;
+    width: 506px;
+    height: 381px;
+    margin-left: 20px;
+    margin-top: 190px;
+
+}
+.box5-3 img
+{
+    cursor: pointer;
+    width: 506px;
+    height: 381px;
+    margin-left: 20px;
+    margin-top: 190px;
+}
+
+.text5-1
+{
+    cursor: pointer;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 55px;
+    letter-spacing: 2px;
+    
+}
+.text5-2{
+    cursor: pointer;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+.text5-3{
+    cursor: pointer;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.text5-1-1{
+    cursor: pointer;
+    font-family:  sans-serif;
+    font-size: 18px;
+    margin-left: 54px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+}
+.text5-2-1{
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+}
+.text5-3-1{
+    cursor: pointer;
+    font-family:  sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    letter-spacing: 0px;
+    margin-top: 10px;
+}
+.part6
+{
+display: flex;
+}
+
+.box6-1 img
+{
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 55px;
+}
+.box6-2 img
+{
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.box6-3 img
+{
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.text6-1
+{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left:55px;
+    letter-spacing: 2px;
+
+}
+.text6-2
+{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+.text6-3
+{
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+.text6-1-1
+{
+    cursor: pointer;
+    font-family:  sans-serif;
+    font-size: 18px;
+    margin-left: 55px;
+    letter-spacing: 0px;
+    margin-top: 20px;
+    transition: .4s;
+}
+.text6-1-1:hover
+{
+color: orangered;
+}
+
+.text6-2-1
+{
+    cursor: pointer;
+    font-family:  sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    letter-spacing: 0px;
+    margin-top: 20px;
+    transition: .4s;
+}
+.text6-2-1:hover
+{
+color: orangered;
+}
+
+.text6-3-1
+{
+    cursor: pointer;
+    font-family:  sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    letter-spacing: 0px;
+    margin-top: 20px;
+    transition: .4s;
+}
+.text6-3-1:hover
+{
+color: orangered;
+}
+
+.text6-1-2
+{
+    font-family: sans-serif;
+    margin-left: 55px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.text6-2-2
+{
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.text6-3-2
+{
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
+}
+.part7
+{
+display: flex;
+}
+.insta img
+{
+    width: 24px;
+    height: 11px;
+    margin-left: -12px;
+    margin-top: 13px;
+}
+.box7-1 img
+{
+    cursor: pointer;
+    width: 780px;
+    height: 591px;
+    margin-left: 60px;
+    margin-top: 91px;
+}
+.box7-2
+{
+    background-color: black;
+    width: 780px;
+    height: 591px;
+    color: rgb(252, 252, 252);
+    margin-top: 91px;
+}
+.text7-1
+{
+    font-family: 'Teko', sans-serif;
+    color: aliceblue;
+    font-size: 57px;
+    margin-top: 184px;
+    margin-left: 217px;
+}
+
+
+
+.text7-2
+{
+margin-left: 272px;
+margin-top:10px;
+}
+.insta
+{
+    cursor: pointer;
+    height: 68px;
+    width: 180px;
+    margin-left: 294px;
+    margin-top: 30px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Teko', sans-serif;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 1s;
+   
+    
+}
+.intsa:hover
+{
+color: orangered;
+border: 1px solid orangered;
+
+
+}
+
+.text8
+{
+
+        margin-top: 60px;
+        margin-left: 593px;
+        font-family: 'Teko', sans-serif;
+        font-size: 27px;
+        letter-spacing: 2px;
+    
+}
+.part8
+
+{
+
+    display: flex;
+
+}
+.signup
+{   cursor: pointer;
+    height: 65px;
+    width: 180px;
+    margin-left: 11px;
+    margin-top: 46px;
+    color: orangered;
+    background-color: transparent;
+    font-family: 'Teko', sans-serif;
+    border: 1px solid orangered;
+    font-size: 20px;
+    transition: 1s;
+   
+}
+.signup:hover{
+    
+    color: rgb(245, 250, 248);
+    background-color: orangered;
+    width: 220px;
+    height: 65px;
+}
+
+.line1
+{
+    border-top: 1px solid rgb(181, 181, 181);
+    margin-top: 50px;
+    
+}
+.text9
+{
+    color: grey;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Teko', sans-serif;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+footer
+{
+    background-color: black;
+    height: 635px;
+    
+}
+
+.footer{
+    display: flex;
+    
+}
+
+
+.footer-list
+{
+   display: inline; 
+   
+   
+}
+
+
+.list1{
+
+cursor: pointer;
+
+font-size: 15px;
+margin-left: 60px;
+
+
+
+}
+.list1:hover{
+    color: orangered;
+}
+.footer-list2
+{
+    display: inline;
+    margin-left: 170px;
+}
+.footer-list3
+{
+    display: inline;
+    margin-left: 170px;
+}
+.footer-list4
+{
+    display: inline;
+    margin-left: 170px;
+}
+
+
+.footer-list5
+{
+ display: flex;
+
+}
+.social
+{
+    color: aliceblue;
+    margin-top: 90px;
+    margin-left: 160px;
+
+    font-size: 15px;
+}
+.social img{
+    cursor: pointer;
+    width: 30px;
+    height: 27px;
+    
+    margin-top: 20px;
+}
+.line{
+    width: 1550px; color: white; 
+    display: flex;
+    margin-top: 400px; 
+     margin-left: -1320px; 
+
+}
+hr{
+    display: flex;
+    color: white;
+    width: 1580px;
+    margin-left: 66px;
+    margin-top: 30px;
+}
+.final-text
+{
+    margin-top:30px;
+    margin-left: 70px;
+    padding: 0;
+    font-size: 14px;
+    color: rgb(136, 132, 132);
+    font-weight: 100;
+}
+span
+{
+    cursor: pointer;
+    margin-left :1050px;
+    color: orangered;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
